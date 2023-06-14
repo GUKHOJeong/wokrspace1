@@ -1,6 +1,5 @@
 library(XML)
 library(rvest)
-library(xml2)
 # 네이버 검색창에서 원하는 키워드와 해당되는 페이지로 URL을 만들고 거기에 해당되는 네이버 뉴스 링크 URL제작
 URLS <- function(keyword,page){
   urls <- NULL
